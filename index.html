@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment-5</title>
   <!-- tailwind css link -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    #bg {
+      background: linear-gradient(90deg, #9BA8F8 0%, #6C7FFA 47%, #3752FD 100%);
+    }
+  </style>
 </head>
-<body class="bg-[#F4F7FF]" >
+
+<body class="bg-[#F4F7FF]">
   <section class="container mx-auto">
-  <header>
+    <header>
       <section class=" flex justify-between mt-5 bg-white py-4 rounded-xl">
         <div class="flex items-center gap-3 ml-6">
           <div><img src="assets/logo.png" alt=""></div>
@@ -18,17 +25,93 @@
 
         <div class="flex gap-10 mr-6">
           <div class="flex items-center bg-[#F4F7FF] py-3 px-6 rounded-[25px] gap-4 ">
-           <div>
-             <img src="assets/checkbox.png" alt="">
+            <div>
+              <img src="assets/checkbox.png" alt="">
             </div>
             <h1 class="font-bold text-3xl">23</h1>
           </div>
-         <div class="grid items-center bg-[#F4F7FF] rounded-full p-4">
-          <img src="assets/theme-btn.png" alt="">
-         </div>
+          <div class="grid items-center bg-[#F4F7FF] rounded-full p-4">
+            <img src="assets/theme-btn.png" alt="">
+          </div>
         </div>
       </section>
-  </header>
+    </header>
   </section>
+
+  <main class="container mx-auto mt-5">
+
+    <section class="bg-white">
+      <!-- section part1 -->
+      <section class="flex justify-center gap-12">
+        <!--div 1-->
+        <div class="flex items-center bg-[#F4F7FF] gap-5 py-8 px-20 rounded-xl mt-8 mb-16">
+          <div class="rounded-full p-4 bg-white"><img src="assets/checkbox.png" alt=""></div>
+          <div>
+            <p class="text-[#00303C] text-3xl">Task Assigned </p>
+            <h1 class="font-bold text-5xl">05</h1>
+          </div>
+        </div>
+
+        <!--div 2-->
+        <div class="flex items-center bg-[#F4F7FF] gap-5 py-8 px-16 rounded-xl mt-8 mb-16 pl-[-20px]" id="bg">
+          <div>
+            <img src="assets/board.png" alt="">
+          </div>
+          <div>
+            <p class="text-white text-2xl">Discover Something <br>New Today!</p>
+          </div>
+        </div>
+
+        <!--div 3-->
+        <div class="flex items-center bg-[#F4F7FF] gap-5 py-8 px-20 rounded-xl mt-8 mb-16">
+          <div class="rounded-full p-4 bg-white"><img src="assets/calender.png" alt=""></div>
+          <div>
+            <p class="text-[#00303C] text-3xl">Wed, </p>
+            <h1 class="font-bold text-5xl">jul 28 2025</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- section part 2-->
+
+      <div>
+          <!--div 1-->
+        <div class="mt-5 pb-10 pl-7 mb-5">
+          <p class="mb-4">ShopEase</p>
+          <h1 class="font-bold text-3xl mb-7 ">Fix Mobile Button Issue </h1>
+          <div class="bg-white p-5">
+            <p>Debug using Chrome <br>DevTools, check for overlapping...</p>
+          </div>
+          <div class="flex items-center gap-8 mt-7">
+            <div>
+              <p>Deadline</p>
+              <h1 class="font-bold">21 March 2025</h1>
+            </div>
+            <div>
+              <button class="bg-[#3752FD] text-white py-2 px-3 rounded-[12px]">complement</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+  </main>
+
+
+
+
 </body>
+
 </html>
